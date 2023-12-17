@@ -54,6 +54,8 @@ defmodule ConferenceIosdevsmxWeb do
       use Phoenix.LiveView,
         layout: {ConferenceIosdevsmxWeb.Layouts, :app}
 
+      use LiveViewNative.LiveView
+
       unquote(html_helpers())
     end
   end
@@ -61,6 +63,7 @@ defmodule ConferenceIosdevsmxWeb do
   def live_component do
     quote do
       use Phoenix.LiveComponent
+      use LiveViewNative.LiveComponent
 
       unquote(html_helpers())
     end
