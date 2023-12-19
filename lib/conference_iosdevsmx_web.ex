@@ -54,7 +54,6 @@ defmodule ConferenceIosdevsmxWeb do
       use Phoenix.LiveView,
         layout: {ConferenceIosdevsmxWeb.Layouts, :app}
 
-
       unquote(html_helpers())
 
       # LiveView Native support
