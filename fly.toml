@@ -13,7 +13,7 @@ kill_signal = "SIGTERM"
   release_command = "/app/bin/migrate"
 
 [env]
-  PHX_HOST = "conference-iosdevsmx.fly.dev"
+  PHX_HOST = "2024.iosdevs.mx"
   PORT = "8080"
 
 [http_service]
