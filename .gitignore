@@ -35,3 +35,5 @@ conference_iosdevsmx-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ignore node_modules
+node_modules
